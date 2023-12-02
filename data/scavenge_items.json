@@ -1,0 +1,14 @@
+{
+    "null": {
+        "Percentage": 5
+    },
+    "Fishing Hook": {
+      "Percentage": 7,
+      "Category": "Miscellaneous"
+    },
+    "Rare Gem": {
+        "Percentage": 0.1,
+        "Category": "Stones"
+      }
+  }
+  
