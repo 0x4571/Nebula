@@ -20,7 +20,7 @@ Just hit up [this magical invite link](https://discord.com/api/oauth2/authorize?
 
 ## Contributing to the Cosmic Chaos
 
-Have an idea for a new command? Found a bug? Or just want to share some intergalactic memes? Feel free to shoot a message or throw your stardust in my Discord server.
+Have an idea for a new command? Found a bug? Or just want to share some intergalactic memes? Feel free to shoot a message or throw your stardust in [my Discord server](https://discord.gg/WqRzp8weWa).
 
 And remember, Nebula is all about having fun in the vastness of Discord. No licenses, no rules – just pure, unadulterated chaos. 🌌✨
 
