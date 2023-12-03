@@ -53,7 +53,7 @@ module.exports = {
 
         marketData[identifier].Quantity -= amount
 
-        if (marketData[identifier].Quantity < 0) {
+        if (marketData[identifier].Quantity <= 0) {
             delete marketData[identifier]
         }
 
