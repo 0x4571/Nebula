@@ -40,9 +40,7 @@ module.exports = {
         
         const newEmbed = new EmbedBuilder()
         .setColor(0x090909)
-        .setTitle('**Inventory**')
-
-        console.log(inventory)
+        .setTitle(`**${user} Inventory**`)
 
         if (!inventory[Page]) {
             newEmbed.setDescription(`Page not found, pages go up from 0 to ${inventory.length}`)

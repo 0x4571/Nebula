@@ -16,7 +16,7 @@ module.exports = {
             }
         }
 
-        data.setData(newData)
+        return newData[userId].Inventory[itemName]
     },
 
     async addAmountToItem(userId, itemName, amount) {
@@ -37,6 +37,6 @@ module.exports = {
             newData[userId].Inventory[itemName].Amount = 0
         }
 
-        data.setData(newData)
+        return newData[userId].Inventory[itemName].Amount
     }
 };
