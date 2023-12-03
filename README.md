@@ -16,7 +16,7 @@ Hey there! 👋 Welcome to Nebula, a Discord bot born out of pure chaos and fun.
 
 ## How to Summon Nebula?
 
-Just hit up [this magical invite link]([https://your-bot-invite-link](https://discord.com/api/oauth2/authorize?client_id=1177987467861819413&permissions=414464724032&scope=bot)) and bring Nebula to your server. It's that simple! No rocket science involved. (Okay, maybe a little space magic.)
+Just hit up [this magical invite link](https://discord.com/api/oauth2/authorize?client_id=1177987467861819413&permissions=414464724032&scope=bot) and bring Nebula to your server. It's that simple! No rocket science involved. (Okay, maybe a little space magic.)
 
 ## Contributing to the Cosmic Chaos
 
