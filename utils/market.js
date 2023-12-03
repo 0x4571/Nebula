@@ -73,5 +73,13 @@ module.exports = {
         }
         
         data.setMarketData(marketData)
+    },
+
+    async rmItem(identifier) {
+        let marketData = await data.getMarketData()
+
+        delete marketData[identifier]
+
+        data.setMarketData(marketData)
     }
 }

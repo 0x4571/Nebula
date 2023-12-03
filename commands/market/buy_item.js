@@ -40,6 +40,9 @@ module.exports = {
         } else {
             if (!Data[item.BuyerId]) {
                 newEmbed.setDescription('**Invalid seller, please contact an administrator.**')
+            } else if (item.Quantity <= 0) {
+                market.rmItem(Identifier)
+                newEmbed.setDescription('**It appears this item has already been sold!**')
             } else if (item.BuyerId === interaction.user.id) {
                 newEmbed.setDescription('**You cannot buy your own items!**')
             } else if (Data[item.BuyerId].Inventory[item.Name].Amount < quant) {
@@ -54,7 +57,7 @@ module.exports = {
                 Data[item.BuyerId].Money += (item.Price * quant)
 
                 if (!Data[interaction.user.id].Inventory[item.Name]) {
-                    items.createItem(interaction.user.id, item.Name, item.Category)
+                    await items.createItem(interaction.user.id, item.Name, item.Category)
                 }
 
                 items.addAmountToItem(interaction.user.id, item.Name, quant)
