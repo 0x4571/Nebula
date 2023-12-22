@@ -1,10 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+
 const dataPath = path.join(__dirname, 'data/player_data.json');
 const bankDataPath = path.join(__dirname, 'data/bank_data.json');
 const jobsPath = path.join(__dirname, 'data/jobs.json');
 const fishesPath = path.join(__dirname, 'data/fishes.json');
 const marketDataPath = path.join(__dirname, 'data/market_data.json')
+const casinoPath = path.join(__dirname, 'data/casino_data.json')
 
 module.exports = {
     async setData(Data) {
@@ -25,6 +27,10 @@ module.exports = {
 
     getFishes() {
         return JSON.parse(fs.readFileSync(fishesPath)); 
+    },
+
+    getCasino() {
+        return JSON.parse(fs.readFileSync(casinoPath));
     },
 
     getJobs() {

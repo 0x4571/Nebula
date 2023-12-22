@@ -1,0 +1,198 @@
+{
+    "Tuna": {
+      "Percentage": 12,
+      "Reward": {
+        "Min": 14,
+        "Max": 41
+      }
+    },
+    "Salmon": {
+      "Percentage": 10,
+      "Reward": {
+        "Min": 15,
+        "Max": 56
+      }
+    },
+    "Mackerel": {
+      "Percentage": 15,
+      "Reward": {
+        "Min": 11,
+        "Max": 25
+      }
+    },
+    "Cod": {
+      "Percentage": 8,
+      "Reward": {
+        "Min": 13,
+        "Max": 95
+      }
+    },
+    "Halibut": {
+      "Percentage": 6,
+      "Reward": {
+        "Min": 38,
+        "Max": 183
+      }
+    },
+    "Trout": {
+      "Percentage": 18,
+      "Reward": {
+        "Min": 5,
+        "Max": 11
+      }
+    },
+    "Bass": {
+      "Percentage": 13,
+      "Reward": {
+        "Min": 12,
+        "Max": 36
+      }
+    },
+    "Swordfish": {
+      "Percentage": 5,
+      "Reward": {
+        "Min": 49,
+        "Max": 253
+      }
+    },
+    "Snapper": {
+      "Percentage": 4,
+      "Reward": {
+        "Min": 75,
+        "Max": 399
+      }
+    },
+    "Lobster": {
+      "Percentage": 2,
+      "Reward": {
+        "Min": 37,
+        "Max": 534
+      }
+    },
+    "Shark": {
+      "Percentage": 1.5,
+      "Reward": {
+        "Min": 137,
+        "Max": 754
+      }
+    },
+    "Blue Marlin": {
+      "Percentage": 1,
+      "Reward": {
+        "Min": 247,
+        "Max": 1204
+      }
+    },
+    "Haddock": {
+      "Percentage": 8,
+      "Reward": {
+        "Min": 13,
+        "Max": 95
+      }
+    },
+    "Grouper": {
+      "Percentage": 6,
+      "Reward": {
+        "Min": 38,
+        "Max": 183
+      }
+    },
+    "Yellowfin Tuna": {
+      "Percentage": 4,
+      "Reward": {
+        "Min": 75,
+        "Max": 399
+      }
+    },
+    "Red Snapper": {
+      "Percentage": 3,
+      "Reward": {
+        "Min": 92,
+        "Max": 483
+      }
+    },
+    "King Crab": {
+      "Percentage": 1.5,
+      "Reward": {
+        "Min": 137,
+        "Max": 754
+      }
+    },
+    "Mahi Mahi": {
+      "Percentage": 1,
+      "Reward": {
+        "Min": 247,
+        "Max": 1204
+      }
+    },
+    "Yellowtail": {
+      "Percentage": 1,
+      "Reward": {
+        "Min": 247,
+        "Max": 1204
+      }
+    },
+    "Albacore": {
+      "Percentage": 1,
+      "Reward": {
+        "Min": 247,
+        "Max": 1204
+      }
+    },
+    "Striped Bass": {
+      "Percentage": 1,
+      "Reward": {
+        "Min": 247,
+        "Max": 1204
+      }
+    },
+    "Rockfish": {
+      "Percentage": 0.5,
+      "Reward": {
+        "Min": 495,
+        "Max": 1922
+      }
+    },
+    "Cobia": {
+      "Percentage": 0.5,
+      "Reward": {
+        "Min": 495,
+        "Max": 1922
+      }
+    },
+    "Arctic Char": {
+      "Percentage": 0.3,
+      "Reward": {
+        "Min": 749,
+        "Max": 3143
+      }
+    },
+    "Wahoo": {
+      "Percentage": 0.2,
+      "Reward": {
+        "Min": 1049,
+        "Max": 3943
+      }
+    },
+    "Barramundi": {
+      "Percentage": 0.1,
+      "Reward": {
+        "Min": 4930,
+        "Max": 9604
+      }
+    },
+    "Yelloweye Rockfish": {
+      "Percentage": 0.1,
+      "Reward": {
+        "Min": 2943,
+        "Max": 11818
+      }
+    },
+
+    "Fishing Hook": {
+      "Percentage": 7
+    }, 
+
+    "Metal sheet": {"Percentage": 3}
+}
+  

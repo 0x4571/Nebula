@@ -43,7 +43,7 @@ module.exports = {
 
         return Pages
     },
-
+    
     async subItem(identifier, amount) {
         let marketData = await data.getMarketData()
 
@@ -57,7 +57,7 @@ module.exports = {
             delete marketData[identifier]
         }
 
-        
+
         data.setMarketData(marketData)
     },
 
